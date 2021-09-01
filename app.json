@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "PAM-CRUD",
+    "slug": "PAM-CRUD",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "PAM-CRUD"
+}
