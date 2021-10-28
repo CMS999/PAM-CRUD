@@ -1,7 +1,5 @@
-# OSX
-#
-.DS_Store
 
+<<<<<<< HEAD
 # Xcode
 #
 build/
@@ -44,3 +42,5 @@ buck-out/
 *.jsbundle
 
 
+=======
+>>>>>>> 4dc7fe12ed7b4bcfafe7fe21e72769f83da042d9
