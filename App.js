@@ -5,6 +5,8 @@ import Inicial from './Telas/Inicial';
 import CRUD from './Telas/CRUD';
 import Cadastrar from './Telas/Cadastrar';
 import Login from './Telas/Login';
+import CEPAPI from './Telas/CEPAPI';
+import CEP from './Telas/CEP';
 
 const Stack = createStackNavigator();
 
@@ -42,7 +44,16 @@ function MyStack() {
       component={Login} 
       options={{ title: 'Login' }}
       />
-            
+      <Stack.Screen 
+      name="CEPAPI" 
+      component={CEPAPI} 
+      options={{ title: 'CEPAPI' }}
+      />  
+      <Stack.Screen 
+      name="CEP" 
+      component={CEP} 
+      options={{ title: 'CEP' }}
+      />         
       
     </Stack.Navigator>
   );

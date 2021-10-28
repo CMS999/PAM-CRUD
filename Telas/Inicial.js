@@ -21,6 +21,13 @@ class Inicial extends Component {
                 color="#19AC52"
               />
             </View> 
+            <View style={styles.button1}>
+              <Button            
+                title='CEP'
+                onPress={() => this.props.navigation.navigate('CEP')} 
+                color="#19AC52"
+              />
+            </View>  
         </View>
       </ScrollView>
     );
